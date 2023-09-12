@@ -1,6 +1,4 @@
-//import logo from "./logo.svg";
 import ExpenseItem from "./Components/ExpenseItem";
-//import "./App.css";
 
 function App() {
   const expenses = [
@@ -27,43 +25,11 @@ function App() {
   return (
     <div>
       <h6>your hands</h6>
-      <ExpenseItem
-        date={expenses[0].date}
-        title={expenses[0].title}
-        amount={expenses[0].amount}
-      ></ExpenseItem>
-      <ExpenseItem
-        date={expenses[1].date}
-        title={expenses[1].title}
-        amount={expenses[1].amount}
-      ></ExpenseItem>
-      <ExpenseItem
-        date={expenses[2].date}
-        title={expenses[2].title}
-        amount={expenses[2].amount}
-      ></ExpenseItem>
-      <ExpenseItem
-        date={expenses[3].date}
-        title={expenses[3].title}
-        amount={expenses[3].amount}
-      ></ExpenseItem>
+      <ExpenseItem expense={expenses[0]}></ExpenseItem>
+      <ExpenseItem expense={expenses[1]}></ExpenseItem>
+      <ExpenseItem expense={expenses[2]}></ExpenseItem>
+      <ExpenseItem expense={expenses[3]}></ExpenseItem>
     </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
