@@ -1,6 +1,6 @@
 import React from "react";
 import "./ExpenseDate.css";
-import Card from "./Card";
+import Card from "../CommonUI/Card";
 function ExpenseDate(props) {
   // making the date as human readable.
   const month = props.date.toLocaleString("en-us", { month: "long" });
