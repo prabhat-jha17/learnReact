@@ -1,4 +1,3 @@
-import ExpenseItem from "./Components/ExpenseItem";
 import Expenses from "./Components/Expenses";
 
 function App() {
