@@ -1,3 +1,4 @@
+import React from "react";
 import Expenses from "./Components/Expenses";
 
 function App() {
@@ -48,6 +49,14 @@ function App() {
       ></ExpenseItem> */}
     </div>
   );
+  // This is code we used previously when using React as imoprt to read jsx. Now, we are using React-dom in index.js file instead of react. check paqckage.json file.
+
+  // return React.createElement(
+  //   "div",
+  //   {},
+  //   React.createElement("h6", {}, "your hands"),
+  //   React.createElement(Expenses, { item: { expenses } })
+  // );
 }
 
 export default App;
